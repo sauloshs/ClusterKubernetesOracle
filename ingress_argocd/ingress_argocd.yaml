@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: argocd.saulo.io   # Substitua pelo seu domínio
+  - host: argocd.saulo.info   # Substitua pelo seu domínio
     http:
       paths:
       - path: /
