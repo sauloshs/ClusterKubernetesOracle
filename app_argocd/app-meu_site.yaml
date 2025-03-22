@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: meu_site 
   destination:
-    namespace: argocd
+    namespace: default
     server: https://kubernetes.default.svc
   syncPolicy:
     syncOptions:
