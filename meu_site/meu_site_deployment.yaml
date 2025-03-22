@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: mysite
-          image: sauloshs/site:verde
+          image: sauloshs/site:armazul
           ports:
             - containerPort: 80
           resources:
